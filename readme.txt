@@ -1,0 +1,1 @@
+It's my first landling page. I made it by using a PSD file. My site has adaptive for screen 1920x1080 and 1366x768.

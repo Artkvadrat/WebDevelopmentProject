@@ -1,0 +1,595 @@
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans';
+}
+
+.mix{
+	display: none;
+}
+.header-container {
+	width: 90%;
+	height: 6em;
+	margin: 0 auto;
+	background: #ffffffff;
+	display: flex;
+	justify-content: space-between;
+}
+.logo img, .search img {
+	width: 4em;
+	height: 4em;
+	padding-top: 1em;
+}
+.logo {
+	width: 4em;
+	height: 4em;
+}
+.main-menu img{
+	width: 2em;
+	height: 2em;
+	padding-top: 2.5em;
+}
+ul {
+	display: flex;
+	list-style: none;
+
+}
+.menu a{
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.menu li{
+	padding-right: 1.5em;
+}
+.main-menu {
+	height: 6em;
+	line-height: 5em;
+	display: flex;
+}
+.menu a{
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	padding: 0.5em 1em;
+}
+.menu a:hover {
+	border: 0px black solid;
+	border-radius: 30px;
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 0.5em 1em;
+}
+
+
+.WDP {
+	background-image: url(img/keybord.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color:white;
+	font-family: 'Open Sans'; 
+	margin: 0;
+}
+#head {
+	padding-top: 5em;
+	letter-spacing: 4px;
+	font-size: 40px;
+	margin: 0;
+}
+.WDP p{
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.buttons {
+	display: inline-flex;
+	height: 50px;
+    line-height: 50px;
+    position: relative;
+    padding-top: 3em;
+	padding-bottom: 8em;
+}
+a.button1 {
+	color: white;
+	text-decoration: none;
+	padding: 0.8em 1em;
+  	border-radius: 3px;
+  	background: #00897b;
+  	border: 3px solid rgba(0,0,0,0%);
+}
+.button {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+a.button1:hover {
+	background: rgba(0,0,0,0%);
+	border: 3px solid white;
+	border-radius: 20px;
+}
+
+.info {
+	text-align: center;
+}
+.info-container {
+	width: 80%;
+	justify-content: space-between;
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+.services-container {
+	background: #ABF7EA;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+.info {
+	padding-bottom: 4em;
+}
+a.block-phone {
+	background: url(img/phone.png);
+	display: block;
+	width: 56px;
+	height: 62px;
+	margin: 0 auto;
+	cursor: default;
+}
+.block:hover a.block-phone {
+	background: url(img/phone-wh.png);
+	display: block;
+	width: 56px;
+	height: 62px;
+	margin: 0 auto;
+}
+.service-line {
+	display: flex;
+}
+.block-href a{
+	text-decoration: none;
+	color: black;
+	padding: 0.5em 0.8em;
+	border: black solid 1px;
+}
+.block-href {
+	padding-top: 2em;
+}
+.block {
+	text-align: center;
+	background: white;
+	margin: 0.7em;
+	padding: 3em 2em;
+}
+.service-line {
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+}
+.block:hover {
+	background: #00897b;
+	color: white;
+}
+.block:hover .block-href a{
+	text-decoration: none;
+	color: white;
+	padding: 0.5em 0.8em;
+	border: white solid 1px;
+}
+.transition {
+	transition: 1.5s;
+}
+.latest-work {
+	text-align: center;
+	margin-top: 8em;
+	height: 780px;
+}
+.latest-work-buttons {
+	display: inline-flex;
+	height: 50px;
+    line-height: 50px;
+    position: relative;
+    padding-top: 3em;
+	padding-bottom: 8em;
+	width: 50%;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.button2,.filter {
+	outline: none;
+	text-decoration: none;
+	color: black;
+	border: 2px solid #00897b;
+	border-radius: 8px;
+	padding: 1em 2em;
+	background: rgba(0,0,0,0%);
+}
+.button2:hover,.filter:hover {
+	outline: none;
+	background: #00897b;
+	color: white;
+	border-radius: 20px;
+}
+.transition2 {
+	transition: 0.5s;
+}
+.controls{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+#imagesWrapper {
+	width: 60%;
+	margin: 0 auto;
+}
+.img img {
+	height: 250px;
+	width: 250px;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*--------------------------------------------------*/
+.pricing-plan {
+	padding-top: 8em;
+	text-align: center;
+	background: #B7B7B7;
+}
+.prices-container {
+	padding-top: 3em;
+	padding-bottom: 10em;
+	margin: 0 auto;
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+}
+.prices-block {
+	background: linear-gradient(-5deg, white 67%, blue 67%);
+	padding: 2em 5em;
+	line-height: 3em;
+}
+.prices-block h5 {
+	font-weight: 100;
+	color: white;
+}
+.prices-block p:not(:first-child) {
+	border-bottom: 1px solid #9E9E9EFF;
+}
+.price {
+	font-size: 28px;
+	color: white;
+	font-weight: 300;
+	margin: 0 12px;
+}
+.order-button{
+	padding-top: 1.5em;
+}
+
+
+/*-------------------------------*/
+.teamMemberContainer {
+	padding-top: 4em;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+.members{
+	padding-top: 3em;
+	padding-bottom: 5em;
+	display: flex;
+	justify-content: space-between;
+}
+.people img{
+	width: 350px;
+	height: 275px;
+}
+.networks {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+}
+a.socialFacebook {
+	background: url(img/facebookBlack.png);
+	background-size: cover;
+	width: 35px;
+	height: 35px;
+	display: block;
+}
+a.socialFacebook:hover {
+	background: url(img/facebookColor.png);
+	background-size: cover;
+}
+a.socialTwit {
+	background: url(img/twitterBlack.png);
+	background-size: cover;
+	width: 35px;
+	height: 35px;
+	display: block;
+}
+a.socialTwit:hover {
+	background: url(img/twitterColor.png);
+	background-size: cover;
+	width: 35px;
+	height: 35px;
+	display: block;	
+}
+a.socialMassage {
+	background: url(img/whatsappBlack.png);
+	background-size: cover;
+	width: 35px;
+	height: 35px;
+	display: block;
+}
+a.socialMassage:hover {
+	background: url(img/whatsappColor.png);
+	background-size: cover;
+	width: 35px;
+	height: 35px;
+	display: block;	
+}
+a.socialInternet {
+	background: url(img/google-chromeBlack.png);
+	background-size: cover;
+	width: 35px;
+	height: 35px;
+	display: block;
+}
+a.socialInternet:hover {
+	background: url(img/google-chromeColor.png);
+	background-size: cover;
+	width: 35px;
+	height: 35px;
+	display: block;	
+}
+
+/*------------------------------------*/
+.blogContainer{
+	background: #A0EDA9FF;
+
+}
+.SEO{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 3em;
+	padding-bottom: 5em;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+.SEO img{
+	width: 400px;
+	height: auto;
+}
+.SEO a{
+	text-decoration: none;
+	cursor: default;
+	color: black;
+}
+.SEO a:hover{
+	color: #3840D0FF;
+}
+.firstSEO{
+	display: inline-flex;
+	justify-content: center;
+}
+.SEOtext{
+	padding-top: 5em;
+	padding-left: 3em;
+}
+.SEOtext img{
+	width: 16px;
+	height: 16px;
+}
+.secondSEO {
+	margin: 0 auto;
+	text-align: center;
+	display: inline-flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+
+/*--------------------------------------------*/
+
+.contactus-container {
+	background: url(img/blur-bright-close-up.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.img-contact img{
+	width: 80px;
+	height: 80px;
+}
+.img-contact{
+	padding-top: 3em;
+	display: flex;
+	width: 50%;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.forms{
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.firstLine{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.names,.email,.secondLine {
+	width: 100%;
+	padding-top: 1em;
+}
+#name, #email {
+	outline: none;
+	height: 3em;
+	width: 90%;
+	padding-left: 1em;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+#email{
+	float: right;
+}
+#message {
+	padding-left: 1em;
+	width: 97.8%;
+	border: 1px solid white;
+	border-radius: 10px;
+	height: 3em;
+	outline: none;
+}
+#send{
+	outline: none;
+	height: 3em;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin-top: 1em;
+	background: white;
+}
+#toTop {
+	width:100px;
+	border:1px solid #ccc;
+	border-radius: 30px;
+	background:#f7f7f7;
+	text-align:center;
+	padding:5px;
+	position:fixed;
+	bottom:30px; /* отступ кнопки от нижнего края страницы*/
+	right:30px;
+	cursor:pointer;
+	display:none;
+	color:#333;
+	font-family:verdana;
+	font-size:14px;
+}
+
+
+@media screen and (min-width: 1400px) {
+	.logo img {
+	width: 5em;
+	height: 5em;
+	padding-top: 1em;
+	}
+	.menu a{
+		font-size: 26px;
+	}
+	#head{
+		font-size: 56px;
+	}
+	.WDP p, .button1, .info p{  /*WDP button, About Us*/
+		font-size: 20px;
+	}
+	.info h2{
+		font-size: 40px;
+	}
+	.info-container{
+		width: 85%;
+	}
+	.info-column img{
+		width: 80px;
+		height: 80px;
+	}
+	.info-column h3{
+		font-size: 26px;
+	}
+	.info-column p{
+		font-size: 19px;
+	}
+	.block{
+		height: 350px;
+		padding-top: 60px;
+	}
+	.block h3{
+		font-size: 24px;
+	}
+	.block p. services-link{
+		font-size: 16px;
+	}
+	.latest-work h2{
+		font-size: 32px;
+		letter-spacing: 4px;
+		word-spacing: 15px;
+	}
+	.latest-work p{
+		font-size: 18px;
+	}
+	.filter{
+		font-size: 20px;
+	}
+	.img img{
+		height: 350px;
+		width: 350px;
+	}
+	.latest-work{
+		height: 1050px;
+	}
+	.pricing-plan h3{
+		font-size: 28px;
+	}
+	.pricing-plan p{
+		font-size: 18px;
+	}
+	.prices-container{
+		width: 70%;
+	}
+	.prices-block{
+		padding-top: 80px;
+		width: 200px;
+		height: 620px;
+	}
+	.prices-block p{
+		font-size: 18px;
+	}
+	p.price{
+		font-size: 34px;
+		text-align: center;
+	}
+	.prices-block h5{
+		font-size: 18px;
+	}
+	.button2{
+		font-size: 20px;
+	}
+	.teamMemberContainer h2{
+		font-size: 32px;
+	}
+	.teamMemberContainer p{
+		font-size: 20px;
+	}
+	.people img{
+		width: 450px;
+		height: auto;
+	}
+	.people p{
+		font-size: 20px;
+	}
+	.networks a{
+		width: 50px;
+		height: 50px;
+	}	
+	.blogContainer{
+		font-size: 22px;
+	}
+	.SEO img{
+		width: 550px;
+		height: auto;
+	}
+	.SEOtext img{
+		width: 22px;
+		height: 22px;
+	}
+	.contactus-container{
+		font-size: 24px;
+	}
+}
